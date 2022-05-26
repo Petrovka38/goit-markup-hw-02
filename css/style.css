@@ -82,6 +82,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    color: #FFFFFF;
+    background-color: var(--btn-background);
     
 }
 .description-title {
@@ -90,7 +92,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--description-title);
+    color: var(--all-title);
 }
 .description-text {
     font-weight: 400;
@@ -107,11 +109,7 @@ body {
     color: var(--all-title);
 }
 .team {
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
+
     background: #F5F4FA;
 }
 .team-people {
@@ -163,7 +161,7 @@ body {
     color: var(--all-title);
     background-color:var(--btn-color);
 }
-.btn:hover, .btn:focus, .hero-btn:hover, .hero-btn:focus {
+.btn:hover, .btn:focus {
     color:var(--btn-color) ;
     background-color: var(--btn-background);
 }
